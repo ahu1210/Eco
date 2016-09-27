@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/snack"
+            style="@style/vp_menu_style"
+            android:drawableTop="@drawable/ic_category_8"
+            android:text="小吃快餐" />
+
+        <Button
+            android:id="@+id/cake"
+            style="@style/vp_menu_style"
+            android:drawableTop="@drawable/ic_category_9"
+            android:text="蛋糕甜点" />
+
+        <Button
+            android:id="@+id/recreation"
+            style="@style/vp_menu_style"
+            android:drawableTop="@drawable/ic_category_10"
+            android:text="休闲娱乐" />
+
+        <Button
+            android:id="@+id/beauty"
+            style="@style/vp_menu_style"
+            android:drawableTop="@drawable/ic_category_11"
+            android:text="丽人" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/serve"
+            style="@style/vp_menu_style"
+            android:drawableTop="@drawable/ic_category_12"
+            android:text="生活服务" />
+
+        <Button
+            android:id="@+id/knead"
+            style="@style/vp_menu_style"
+            android:drawableTop="@drawable/ic_category_13"
+            android:text="足疗按摩" />
+
+        <Button
+            android:id="@+id/travel"
+            style="@style/vp_menu_style"
+            android:drawableTop="@drawable/ic_category_14"
+            android:text="旅游" />
+
+        <Button
+            android:id="@+id/all"
+            style="@style/vp_menu_style"
+            android:drawableTop="@drawable/ic_category_15"
+            android:text="全部分类" />
+    </LinearLayout>
+l
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="text_black_18">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="text_black_20">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="text_14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="text_16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="text_18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="text_white_bold_22">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/light_white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Theme.White.NoTitleBar" parent="android:Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="Text.Title" parent="@style/Text">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="Text.Title_Button" parent="@style/Text">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="bottom_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/tv_bottom_color</item>
+        <item name="android:textSize">@dimen/common_font_size_14</item>
+    </style>
+    
+    <style name="vp_menu_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:paddingTop">10sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/bg_selector</item>
+        
+    </style>
+    
+     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/titleBar_bg_color</item>
+        <item name="colorPrimaryDark">#7fff0000</item>
+        <item name="colorAccent">@color/titleBar_bg_color</item>
+        <item name="android:textColor">#000000</item><!-- 默认字体为黑色 -->
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+    
+    <!-- 自定义加载dialog样式 -->
+    <style name="custom_dialog_style" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- 窗口模式 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 对话框是否有遮盖 -->
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 动画效果，可自定义 -->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    
+    <style name="loadingDialogStyle" parent="custom_dialog_style">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+</resources>

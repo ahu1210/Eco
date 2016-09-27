@@ -1,0 +1,59 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:paddingTop="3dp" >
+
+        <Button
+            android:id="@+id/button_state1"
+            style="@style/bottom_style"
+            android:drawableTop="@drawable/bottom_homepage_selector"
+            android:tag="@string/bottom_homepage"
+            android:text="@string/bottom_homepage" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:paddingTop="3dp" >
+
+        <Button
+            android:id="@+id/button_state2"
+            style="@style/bottom_style"
+            android:drawableTop="@drawable/bottom_user_selector"
+            android:tag="@string/bottom_near"
+            android:text="@string/bottom_near" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:paddingTop="3dp" >
+
+        <Button
+            android:id="@+id/button_state3"
+            style="@style/bottom_style"
+            android:drawableTop="@drawable/bottom_near_selector"
+            android:tag="@string/bottom_user"
+            android:text="@string/bottom_user" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:paddingTop="3dp" >
+
+        <Button
+            android:id="@+id/button_state4"
+            style="@style/bottom_style"
+            android:drawableTop="@drawable/bottom_more_selector"
+            android:tag="@string/bottom_more"
+            android:text="@string/bottom_more" />
+    </FrameLayout>
+
+</merge>

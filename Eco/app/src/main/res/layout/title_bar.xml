@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_bar_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/header_height"
+    android:background="@color/titleBar_bg_color" >
+
+    <!-- 左侧的返回按钮 -->
+
+    <Button
+        android:id="@+id/button_backward"
+        style="@style/Text.Title_Button"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start|center_vertical"
+        android:background="@drawable/button_backward_selector"
+        android:drawableLeft="@drawable/back_arrow"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:paddingLeft="@dimen/table_margin"
+        android:paddingRight="0dp"
+        android:text="@string/button_backward"
+        android:visibility="visible" />
+
+    <!-- 左侧自定义布局 -->
+
+    <LinearLayout
+        android:id="@+id/title_bar_custom_layout_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start|center_vertical"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+    </LinearLayout>
+
+    <!-- 中间标题 -->
+
+    <TextView
+        android:id="@+id/title_bar_middle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/common_font_size_21" />
+
+    <!-- 中间自定义布局 -->
+
+    <LinearLayout
+        android:id="@+id/title_bar_custom_layout_mid"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/title_bar_right_text"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/common_font_size_16" />
+
+    <ImageView
+        android:id="@+id/title_bar_right_icon"
+        android:layout_width="25sp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible" />
+
+</FrameLayout>

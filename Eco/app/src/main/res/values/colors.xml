@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bottom_press_color">#ff6634</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#ff0033</color>
+    <color name="pure_white">#fcfbfb</color>
+
+    <!-- 标题栏 -->
+    <drawable name="button_backward_pressed">#40F64C99</drawable>
+    <drawable name="button_backward_normal">#0000</drawable>
+
+    <color name="titleBar_bg_color">#06c7db</color>
+
+    <!-- 程序主色调 -->
+    <color name="background">#f3f3f3</color> <!-- 默认的主题颜色 -->
+    <color name="bg_white">#f0fff0</color>
+    <color name="table_background">#cbcbcb</color>
+    <color name="light_white">#fcfcfc</color>
+    <color name="bottom_bg_color">#f2f2f2</color>
+    <color name="toolbar_color">#06c7db</color>
+
+    <!-- 内容条目按下时的样式 -->
+    <drawable name="pressed_bg">#e0e0e0</drawable>
+    <drawable name="nopressed_bg">#ffffff</drawable>
+
+    <!-- 警示性按钮的背景颜色 -->
+    <drawable name="button_caution_pressed">#d1337b</drawable>
+    <drawable name="button_caution_normal">#f559b1</drawable>
+
+    <color name="myPrimaryColor">#3F51B5</color>
+    <color name="listItem_pressed">#00ced1</color>
+    <color name="listItem_on">#f2f2f2</color>
+    
+    <!-- 自定义toast颜色 #17B592-->
+    <color name="green">#7fff0000</color>
+    
+    <!-- 下拉刷新的颜色 -->
+    <color name="ptrHeaderBackground">#3fff0000</color> <!-- 下拉view背景色 -->
+    <color name="ptrHeaderSubTextColor">#0000ff</color> <!-- 时间文本的颜色 -->
+    <color name="ptrHeaderTextColor">#ffffff</color> <!-- 提示文本的颜色 -->
+    
+    <!-- ripple水波的颜色 -->
+    <color name="ripple_color">#ffff0000</color>
+    
+    <!-- 个人资料 -->
+    <color name="userinfo_text_gray">#4b494c</color>
+    
+    <!-- 横线的背景色 -->
+    <color name="line_bg">#e0e0e0</color>
+
+</resources>

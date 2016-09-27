@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.fare.eco.ui.view.widget.RippleView
+        android:id="@+id/rect"
+        android:background="#DFDEDE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:rv_alpha="10"
+        app:rv_color="#ff0000"
+        app:rv_type="rectangle"
+        app:rv_zoom="true"
+        app:rv_zoomScale="0.85" >
+
+        <TextView
+            android:id="@+id/text_right"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="TextView"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/image_left"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_menu_check" />
+    </com.fare.eco.ui.view.widget.RippleView>
+
+</LinearLayout>

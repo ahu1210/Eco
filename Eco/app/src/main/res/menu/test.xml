@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/location_img"
+        android:orderInCategory="1"
+        android:title="显示距离"
+        android:visible="true"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_search1"
+        android:icon="@drawable/filter"
+        android:orderInCategory="1"
+        android:title="显示距离"
+        android:visible="false"
+        app:showAsAction="always"/>
+
+</menu>
